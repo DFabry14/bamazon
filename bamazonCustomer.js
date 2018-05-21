@@ -40,13 +40,11 @@ function start() {
                 type: "input"
             }
         ]).then(function (answers) {
-            inquirer.prompt([{
 
+            // Confirm/deny and update inventory ❓
 
-                // Confirm/deny and update inventory ❓
-
-            }]).then()
-            // start();
-        });
-    })
+        }).then()
+        // start();
+    });
 }
+
