@@ -6,7 +6,7 @@
 
 Customer which product to buy and how many:
 
-
+![image](https://github.com/DFabry14/bamazon/blob/master/screenshots/Customer%20Choose%20Product%20and%20Quantity.png?raw=true)
 
 Customer not enough in inventory:
 
