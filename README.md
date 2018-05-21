@@ -4,6 +4,18 @@
  
 ![image](https://github.com/DFabry14/bamazon/blob/master/screenshots/Customer%20Initial%20Menu.png?raw=true)
 
+Customer which product to buy and how many:
+
+
+
+Customer not enough in inventory:
+
+
+
+Customer purchase success and show cost:
+
+
+
 Opening screen for manager showing options:
 
 ./screenshots/Manager Initial Menu.png
