@@ -40,11 +40,15 @@ function start() {
                 type: "input"
             }
         ]).then(function (answers) {
-
-            // Confirm/deny and update inventory ❓
-
-        }).then()
-        // start();
-    });
+            connection.query("SELECT * FROM products WHERE item_id = ?", answers.options, function (err, data) {
+                console.log(data);
+                if (parseInt(data.stock_quantity) < parseInt(answers.quantity)) {
+                    console.log("Insufficient quantity!")
+                } else {
+                    console.log("Purchase successful! Total cost: $" + (parseInt(answers.quantity) * parseInt(data.price)));
+                }
+            }).then()
+            start();
+        });
+    })
 }
-
