@@ -2,7 +2,7 @@
  
  Opening screen for customer showing products:
  
-![alt text](screenshots/Customer Initial Menu.png)
+![image](https://github.com/DFabry14/bamazon/blob/master/screenshots/Customer%20Initial%20Menu.png?raw=true)
 
 Opening screen for manager showing options:
 
