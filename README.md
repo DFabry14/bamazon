@@ -18,20 +18,20 @@ Customer purchase success and show cost:
 
 Opening screen for manager showing options:
 
-./screenshots/Manager Initial Menu.png
+![image](https://github.com/DFabry14/bamazon/blob/master/screenshots/Manager%20Initial%20Menu.png?raw=true)
 
 Manager view products, ids, price, inventory:
 
-./screenshots/Manager View Products.png
+![image](https://github.com/DFabry14/bamazon/blob/master/screenshots/Manager%20View%20Products.png?raw=true)
 
 Manager view low inventory: 
 
-./screenshots/Manager View Low Inventory.png
+![image](https://github.com/DFabry14/bamazon/blob/master/screenshots/Manager%20View%20Low%20Inventory.png?raw=true)
 
 Manager add to inventory with before and after product list:
 
-./screenshots/Manager Add to Inventory.png
+![image](https://github.com/DFabry14/bamazon/blob/master/screenshots/Manager%20Add%20to%20Inventory.png?raw=true)
 
 Manager add new product and updated product list:
 
-./screenshots/Manager Add Product.png
+![image](https://github.com/DFabry14/bamazon/blob/master/screenshots/Manager%20Add%20Product.png?raw=true)
