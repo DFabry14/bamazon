@@ -30,24 +30,23 @@ function start() {
 
         inquirer.prompt([
             {
-                name: "options",
+                name: "item_id",
                 message: "Please select product by ID number:",
                 type: "input"
             },
             {
-                name: "quantity",
+                name: "stock_quantity",
                 message: "How many would you like to purchase?",
                 type: "input"
             }
         ]).then(function (answers) {
-            connection.query("SELECT * FROM products WHERE item_id = ?", answers.options, function (err, data) {
-                console.log(data);
-                if (parseInt(data.stock_quantity) < parseInt(answers.quantity)) {
+            connection.query("SELECT * FROM products WHERE item_id = ?", answers.item_id, function (err, data) {
+                if (data[0].stock_quantity < parseInt(answers.stock_quantity)) {
                     console.log("Insufficient quantity!")
                 } else {
-                    console.log("Purchase successful! Total cost: $" + (parseInt(answers.quantity) * parseInt(data.price)));
+                    console.log("Purchase successful! Total cost: $" + (parseInt(answers.stock_quantity)) * data[0].price);
                 }
-            }).then()
+            })
             start();
         });
     })
