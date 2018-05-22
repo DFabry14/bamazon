@@ -10,11 +10,11 @@ Customer which product to buy and how many:
 
 Customer not enough in inventory:
 
-
+![image](https://github.com/DFabry14/bamazon/blob/master/screenshots/Customer%20Insufficient%20Quantity.png?raw=true)
 
 Customer purchase success and show cost:
 
-
+![image](https://github.com/DFabry14/bamazon/blob/master/screenshots/Customer%20Successful%20Purchase.png?raw=true)
 
 Opening screen for manager showing options:
 
